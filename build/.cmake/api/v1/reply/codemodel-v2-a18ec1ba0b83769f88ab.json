@@ -18,7 +18,7 @@
 					]
 				}
 			],
-			"name" : "",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -38,7 +38,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "2048::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-2048-46ac7cc1ca638024c78e.json",
+					"jsonFile" : "target-2048-Debug-5d959c00dfc3a3c231c7.json",
 					"name" : "2048",
 					"projectIndex" : 0
 				}

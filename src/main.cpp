@@ -20,8 +20,6 @@ de 2 correspondante (2->1, 4->2, etc) et le score cible etant 2048 -> 10 marque 
 
 
 int main(){
-    int tab[4] = {1,2,3,3};
-    Line line(tab, tab+1, tab+2, tab+3);
 
     Board board;
     board.add_random();
