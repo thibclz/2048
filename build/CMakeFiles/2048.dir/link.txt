@@ -1,1 +1,0 @@
-/bin/g++-9  -g  -rdynamic CMakeFiles/2048.dir/src/Board.cpp.o CMakeFiles/2048.dir/src/Display.cpp.o CMakeFiles/2048.dir/src/Line.cpp.o CMakeFiles/2048.dir/src/internals.cpp.o CMakeFiles/2048.dir/src/main.cpp.o  -o 2048 
