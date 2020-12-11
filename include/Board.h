@@ -4,14 +4,14 @@ class Board{
     public :
     int bg[16];
 
-    Board(void);
+    Board();
     ~Board();
-    void add_random(void);
+    void add_random();
     void display(int status);
-    int checker(void);
+    int checker();
 
-    bool move_up(void);
-    bool move_down(void);
-    bool move_right(void);
-    bool move_left(void);
+    bool move_up();
+    bool move_down();
+    bool move_right();
+    bool move_left();
 };

@@ -1,24 +1,17 @@
 #include "stdlib.h"
 #include <iostream>
-
+#include "sys/ioctl.h"
+#include "termios.h"
 #include "stdio.h"
 #include "time.h"
 
-#include "internals.h"
 #include "Board.h"
 #include "Display.h"
+#include "internals.h"
 #include "Line.h"
 
 /* Afin d'éviter d'avoir à gerer le probleme d'affichage, les scores (habituellement 2, 4, 8, 16,...) seront affichés selon la puissance
 de 2 correspondante (2->1, 4->2, etc) et le score cible etant 2048 -> 10 marque la victoire, on prendra aussi la convention à -> 0 */
-
-
-
-// Key tester
-
-
-
-
 int main(){
 
     Board board;
@@ -53,46 +46,10 @@ int main(){
             }
             else {
                 board.display(0);
-            }            
+            }
+            std::cout << has_changed << std::endl;
+            
         }   
     }
     return 0;
 }
-
-
-
-//test
-
-// int main(){
-//         //test gauche gauche haut
-
-//     int board[16] = 
-//     {0,1,1,2,
-//     0,1,1,2,
-//     0,0,0,0,
-//     0,0,0,0};
-
-
-//     {
-//     for(int i = 0; i < 4; i++){
-//             Line line(board+4*i, board+1+4*i, board+2+4*i, board+3+4*i);
-//             line.evolve();}
-//     Display display(board, 0);
-//     display.printBoard();
-//     }
-//     {
-//     for(int i = 0; i < 4; i++){
-//             Line line(board+4*i, board+1+4*i, board+2+4*i, board+3+4*i);
-//             line.evolve();}
-//     Display display(board, 0);
-//     display.printBoard();
-//     }
-//     {
-//     for(int j = 0; j < 4; j++){
-//             Line line(board+j, board+j+4, board+j+8, board+j+12);
-//             line.evolve();}
-//     Display display(board, 0);
-//     display.printBoard();
-//     }
-// return 0;
-// }
