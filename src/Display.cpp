@@ -1,6 +1,6 @@
 #include "stdlib.h"
 #include <iostream>
-#include <Display.h>
+#include "../include/Display.h"
 
 int bg[36];
 int status;

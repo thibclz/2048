@@ -1,6 +1,7 @@
+
 #include <iostream>
 
-#include <Line.h>
+#include "../include/Line.h"
 
 int* line[4];
 

@@ -1,3 +1,10 @@
+#pragma once
+#include "stdlib.h"
+#include <iostream>
+
+#include "Line.h"
+#include "Display.h"
+
 class Board{
 
     

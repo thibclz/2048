@@ -1,3 +1,6 @@
+#pragma once
+#include <iostream>
+
 class Line{
     public :
     int* line[4];

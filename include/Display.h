@@ -1,3 +1,6 @@
+#pragma once
+#include "stdlib.h"
+#include <iostream>
 class Display{
     private :
     int bg[36];

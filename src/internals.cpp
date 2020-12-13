@@ -3,6 +3,8 @@
 #include "stdio.h"
 #include "time.h"
 
+#include "../include/internals.h"
+
 namespace internal {
 
 static const int STDIN=0;

@@ -1,8 +1,9 @@
 #include "stdlib.h"
 #include <iostream>
-#include <Board.h>
-#include "Line.h"
-#include "Display.h"
+#include "../include/Board.h"
+#include "../include/Line.h"
+#include "../include/Display.h"
+
 
 int board[16];
 
