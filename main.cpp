@@ -29,12 +29,16 @@ int main(){
             switch (key) {
                 case 'z' :
                     has_changed = board.move_up();
+                    break;
                 case 'd' :
                     has_changed = board.move_right();
+                    break;
                 case 's' :
                     has_changed = board.move_down();
+                    break;
                 case 'q' :
                     has_changed = board.move_left();
+                    break;
                 default :
                     break;
             }
@@ -47,7 +51,7 @@ int main(){
             else {
                 board.display(0);
             }
-            std::cout << has_changed << std::endl;
+
             
         }   
     }
